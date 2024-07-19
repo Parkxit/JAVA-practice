@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class Largestnum {
+class Largestnum {
     public static void main(String[] args) {
         int num1, num2, num3;//finding  largest of the three numbers entered by user
         System.out.println("Enter three numbers: ");
