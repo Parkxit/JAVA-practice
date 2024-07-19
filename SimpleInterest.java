@@ -1,7 +1,7 @@
-package FIrstAssignment;
+
 import java.util.Scanner;
 
-public class SimpleInterest {
+ class SimpleInterest {
     public static void main(String[] args) {
         double p;
         float r;
