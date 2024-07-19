@@ -1,8 +1,8 @@
-package FIrstAssignment;
+
 
 import java.util.Scanner;
 
-public class Name {
+class Name {
     public static void main(String[] args) {
         String name;
         System.out.print("Enter name: ");
