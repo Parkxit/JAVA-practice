@@ -8,7 +8,7 @@ class Menu {
         int num1, num2;
 
         do {
-            System.out.print("Choose the operation that you wat to perform on 2 numbers:'+'  '-'  '*'  '/'  '%': \nOR.......Enter x to exit: ");
+            System.out.print("Choose the operation that you want to perform on 2 numbers:'+'  '-'  '*'  '/'  '%': \nOR.......Enter x to exit: ");
              ch = sc.next();
             switch (ch) {
                 case "+":
@@ -51,7 +51,7 @@ class Menu {
                     break;
 
             }
-        } while ((ch != "x") || ch!="X");
+        } while (ch!= "x" || ch!="X");
     }
 
     private static int mulnum(int num1, int num2) {
