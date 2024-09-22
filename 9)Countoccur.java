@@ -11,6 +11,16 @@ import java.util.Scanner;
     }
 
     private static int occur(int num,int n) {
+     if(num<0)
+     {
+      num=num*-1;
+     }
+
+     if(num==0)
+      {
+      System.out.println("Only one digit i.e. 0");
+      }
+      
         int count =0;
         while(num>0)
         {
