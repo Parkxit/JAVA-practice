@@ -1,8 +1,6 @@
-package FirstAssignment;
-
 import java.util.Scanner;
 
-  class Name {
+public class Name {
     public static void main(String[] args) {
         String name;
         System.out.print("Enter name: ");
